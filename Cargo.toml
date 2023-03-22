@@ -1,0 +1,20 @@
+[package]
+name = "arbitrum-airdrop"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.24"
+clap = { version = "4.1.11", features = ["derive"] }
+colored = "2.0.0"
+dotenv = "0.15.0"
+
+# Interact w/ EVM blockchains.
+ethers = { git = "https://github.com/gakonst/ethers-rs", features = ["ws", "rustls", "abigen"] }
+eyre = "0.6.8"
+serde_json = "1.0.94"
+
+# Running async threads.
+tokio = { version = "1.5", features = ["macros", "rt-multi-thread"] }
