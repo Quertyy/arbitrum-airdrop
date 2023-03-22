@@ -3,7 +3,7 @@
 This bot will claim your airdrop tokens from the [Token Distributor contract](https://arbiscan.io/address/0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9). If you have multiple eligible addresses, a mode is available to send all your tokens to a single address.
 
 ### Requirements
-- [Rust and Cargo](https://arbiscan.io/address/0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9)
+- [Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 
 ### Setup
 1. Put your private keys in the file `json/addresses.json`
